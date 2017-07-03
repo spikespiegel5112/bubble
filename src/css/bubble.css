@@ -1,0 +1,22 @@
+.main_container{
+	width: 100%;
+}
+
+.bubble_main_wrapper{
+	margin: 0 auto;
+	width: 1000px;
+	height: 580px;
+	border: 1px solid #333;
+	position: relative;
+}
+.bubble_main_wrapper .mainbubble{
+	display: block;
+	width: 130px;
+	height: 130px;
+	background:url(../image/redbubble.png);
+	background-size: contain;
+}
+.bubble_main_wrapper .bubble{
+	background:url(../image/bluebubble.png);
+	background-size: contain;
+}
